@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "waveclient.waveclient.mixin.viafabricplus",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "waveclient.waveclient.MixinPlugin",
+  "client": [
+    "GeneralSettingsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "waveclient.waveclient.mixin.baritone",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "waveclient.waveclient.MixinPlugin",
+  "client": [
+    "ComeCommandMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

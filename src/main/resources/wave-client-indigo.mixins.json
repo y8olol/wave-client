@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "waveclient.waveclient.mixin.indigo",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "waveclient.waveclient.MixinPlugin",
+  "client": [
+    "AbstractTerrainRenderContextMixin",
+    "BlockRenderInfoMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

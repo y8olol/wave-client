@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "waveclient.waveclient.mixin.lithium",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "waveclient.waveclient.MixinPlugin",
+  "client": [
+    "ChunkAwareBlockCollisionSweeperMixin",
+    "LithiumEntityCollisionsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

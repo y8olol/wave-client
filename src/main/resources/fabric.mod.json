@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "name": "Wave Client",
+  "id": "wave-client",
+  "version": "${version}",
+  "description": "Based utility mod.",
+  "authors": [
+    "y8o"
+  ],
+  "contact": {
+    "homepage": "https://github.com/y8olol",
+    "issues": "https://github.com/WaveDevelopment/wave-client/issues",
+    "sources": "https://github.com/WaveDevelopment/wave-client"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/wave-client/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "waveclient.waveclient.WaveClient"
+    ],
+    "modmenu": [
+      "waveclient.waveclient.modintegration.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "wave-client.mixins.json",
+    "wave-client-baritone.mixins.json",
+    "wave-client-indigo.mixins.json",
+    "wave-client-sodium.mixins.json",
+    "wave-client-lithium.mixins.json",
+    "wave-client-viafabricplus.mixins.json"
+  ],
+  "accessWidener": "wave-client.accesswidener",
+  "custom": {
+    "wave-client:build_number": "${build_number}",
+    "wave-client:color": "41,160,198",
+    "wave-client:commit": "${commit}",
+    "badoptimizations:cache_hooks": {
+      "lightmap": "waveclient.waveclient.modintegration.BadOptimizationsHook"
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${minecraft_version}"],
+    "fabricloader": ">=${loader_version}"
+  },
+  "breaks": {
+    "optifabric": "*",
+    "feather": "*",
+    "origins": "*",
+    "sodium": "<0.7.0",
+    "morechathistory": "*",
+    "lithium": "<0.21.3"
+  }
+}

@@ -1,0 +1,13 @@
+/*
+ * This file is part of the Wave Client distribution (https://github.com/WaveDevelopment/wave-client).
+ * Copyright (c) Wave Development.
+ */
+
+package waveclient.waveclient.systems.hud;
+
+public enum Alignment {
+    Auto,
+    Left,
+    Center,
+    Right
+}
