@@ -17,6 +17,11 @@
 - Run `./gradlew build`
 
 ### Installation
+
+Use: https://github.com/y8olol/wave-client/releases
+
+OR
+
 - Install Fabric Loader for your Minecraft version.
 - Copy the built Wave jar from `build/libs/` into your Minecraft `mods` folder.
 
