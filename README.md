@@ -13,7 +13,7 @@
 ### Installation
 
 Install Fabric for your Minecraft version.
-Use: https://github.com/y8olol/wave-client/releases
+- Use: https://github.com/y8olol/wave-client/releases
 - Place Wave jar from into your Minecraft `mods` folder.
 
 OR
