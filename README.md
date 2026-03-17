@@ -10,19 +10,16 @@
     <a href="https://discord.gg/RPD4gH34YD"><img src="https://img.shields.io/discord/1399868873594900612?logo=discord" alt="Discord"/></a>
 </div>
 
-## Usage
-
-### Building
-- Clone this repository
-- Run `./gradlew build`
-
 ### Installation
 
+Install Fabric for your Minecraft version.
 Use: https://github.com/y8olol/wave-client/releases
+- Place Wave jar from into your Minecraft `mods` folder.
 
 OR
 
-- Install Fabric Loader for your Minecraft version.
+- Clone this repository
+- Run `./gradlew build`
 - Copy the built Wave jar from `build/libs/` into your Minecraft `mods` folder.
 
 ## Contributions
