@@ -7,9 +7,7 @@
 <p align="center">A Minecraft Fabric Utility Mod for anarchy servers.</p>
 
 <div align="center">
-    <a href="https://discord.gg/RPD4gH34YD"><img src="https://img.shields.io/discord/689197705683140636?logo=discord" alt="Discord"/></a>
-    <img src="https://img.shields.io/github/languages/code-size/WaveDevelopment/wave-client" alt="GitHub code size in bytes"/>
-    <img src="https://img.shields.io/endpoint?url=https://ghloc.vercel.app/api/WaveDevelopment/wave-client/badge?filter=.java$&label=lines%20of%20code&color=blue" alt="GitHub lines of code"/>
+    <a href="https://discord.gg/RPD4gH34YD"><img src="https://img.shields.io/discord/1399868873594900612?logo=discord" alt="Discord"/></a>
 </div>
 
 ## Usage
