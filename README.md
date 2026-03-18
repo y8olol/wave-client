@@ -14,7 +14,6 @@ Install Fabric for your Minecraft version.
 - Place Wave jar from into your Minecraft `mods` folder.
 
 OR
-
 - Clone this repository
 - Run `./gradlew build`
 - Copy the built Wave jar from `build/libs/` into your Minecraft `mods` folder.
@@ -32,6 +31,7 @@ Bug reports and suggestions should be reported via Discord or Github Issues.
 
 ## Credits
 [y8olol](https://github.com/y8olol) for Wave Client maintenance  
+[MeteorDevelopment](https://github.com/MeteorDevelopment) for [Meteor Client](https://github.com/MeteorDevelopment/meteor-client), which Wave is forked from  
 [Cabaletta](https://github.com/cabaletta) and [WagYourTail](https://github.com/wagyourtail) for [Baritone](https://github.com/cabaletta/baritone)  
 The [Fabric Team](https://github.com/FabricMC) for [Fabric](https://github.com/FabricMC/fabric-loader) and [Yarn](https://github.com/FabricMC/yarn)
 
