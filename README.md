@@ -20,7 +20,7 @@ OR
 - Copy the built Wave jar from `build/libs/` into your Minecraft `mods` folder.
 
 ## Contributions
-We will review and help with all reasonable pull requests as long as the guidelines below are met.
+I will review and help with all reasonable pull requests as long as the guidelines below are met.
 - The license header must be applied to all java source code files.
 - IDE or system-related files should be added to the `.gitignore`, never committed in pull requests.
 - In general, check existing code to make sure your code matches relatively close to the code already in the project.
